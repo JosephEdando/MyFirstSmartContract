@@ -7,7 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getFavoriteNumber",
+				"name": "get_Favorite_Number",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -22,7 +22,7 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_favoriteNumber",
+						"name": "_favorite_Number",
 						"type": "uint256"
 					}
 				],
@@ -60,11 +60,11 @@
 	},
 	"sources": {
 		"contracts/SimpleStorage.sol": {
-			"keccak256": "0xa68fbc2df10e7dc353bfd7d4dae0b9a2b65320c0c9c90b444bb2101e0059d708",
+			"keccak256": "0x4a9618543a01c3b654db04d9c7af89aa3500bc92cd4eda257ed8f0471f738422",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a1368dc87579a2b8d7263f96f0b926aacdb1e00e62e7c63a32553bcb709e3840",
-				"dweb:/ipfs/QmaCzFkqpPgYkTcazkLVgvT3JVaeo4WYVQT6X3DV6S5Bs7"
+				"bzz-raw://f61c17983485a372b6ff14a0fd9e54f372398c80276afb6784b0797717590931",
+				"dweb:/ipfs/QmRTbRUhtEeP3g4mH5twZV2nqJg31pEGzGKJD3B2wBaqXL"
 			]
 		}
 	},

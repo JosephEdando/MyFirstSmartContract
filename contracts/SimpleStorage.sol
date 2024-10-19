@@ -2,23 +2,16 @@
 pragma solidity ^0.8.25;
 
 contract SimpleStorage {
-    bool hasFavoriteNumber = true;
-    uint256 favoriteNumber = 42;
-    // int256 favoriteInt = -42;
-     address owner = 0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2;
-    string favoriteNumberInText = "forty-two";
-    bytes32 favoriteBytes = "0x1234567890abcdef1234567890";
 
+  uint256  favorite_Number;
 
-  // uint256 public favoriteNumber;
-
-  function storeNumber(uint256 _favoriteNumber)   public {
+  function storeNumber(uint256 _favorite_Number)   public {
       
-    favoriteNumber = _favoriteNumber;
+    favorite_Number = _favorite_Number;
   }
 
-  function getFavoriteNumber() public view returns (uint256) {
-      return favoriteNumber;
+  function get_Favorite_Number() public view returns (uint256) {
+      return favorite_Number;
   }
 
 }
