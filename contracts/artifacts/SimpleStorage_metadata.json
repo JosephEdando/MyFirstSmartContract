@@ -7,51 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "externalFunction",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getFavoriteNumber",
+				"name": "favoriteNumber",
 				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_favoriteNumber",
-						"type": "uint256"
-					}
-				],
-				"name": "storeNumber",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "testExternalFunction",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -71,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/jo.sol": "SimpleStorage"
+			"contracts/SimpleStorage.sol": "SimpleStorage"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -85,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/jo.sol": {
-			"keccak256": "0x37e80f5025c5aa715823c066ce3a611f64615106308de1551868607c3607b5c7",
+		"contracts/SimpleStorage.sol": {
+			"keccak256": "0xf84e27dedba9041fb3f051e0b0d0dc1d0644f860e422eb051f45b15322a4fd81",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a2b262d66f3c7b179f4a96f45ee7a1caffb78c43f69e7771b4559c5c2f6d13f3",
-				"dweb:/ipfs/QmdpXMwiGMTjMHgNnwTTGFof3TgEP4MuroviG554xfPYV2"
+				"bzz-raw://901e4e699514e6f3f6424fc6da39a0c4a9af0032318c2e1596bcbab05cbfe921",
+				"dweb:/ipfs/QmWovT6CQqsnpuBD3v3RQ74nHt2k1FN2YTCjWVEGfctUYp"
 			]
 		}
 	},
