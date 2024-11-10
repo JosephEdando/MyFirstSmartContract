@@ -93,9 +93,11 @@ Copy the Solidity Code:
 Compile the Contract:
 
 In the Remix IDE, navigate to the "Solidity Compiler" tab and compile HelloArbitrum.sol.
+
 Deploy the Contract:
 
-Switch to the "Deploy & Run Transactions" tab, select the Arbitrum test network (or mainnet if deploying live), and deploy the contract. Be sure to initialize the contract with a message upon deployment.
+Switch to the "Deploy & Run Transactions" tab, select the Arbitrum test network (or mainnet if deploying live), and deploy the contract.
+Be sure to initialize the contract with a message upon deployment.
 
 Contract Details
 
